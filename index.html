@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1 for="deadline">Enter Deadline </h1>
+    <p>(e.g., Oct 11, 2023 23:03:00)</p>
+    <br>
+    <input type="text" id="deadline" placeholder="e.g., Oct 11, 2023 23:03:00">
+    <button class="button-4" id="buttonStart" onclick="startCountdown()" role="button">Start Countdown</button>
+    <!-- Title or heading -->
+    <h1>Countdown Clock</h1>
+    <div id="clockdiv">
+        <div>
+
+            <span class="days" id="day"></span>
+            <div class="smalltext">Days</div>
+        </div>
+        <div>
+
+            <span class="hours" id="hour"></span>
+            <div class="smalltext">Hours</div>
+        </div>
+        <div>
+
+            <span class="minutes" id="minute"></span>
+            <div class="smalltext">Minutes</div>
+        </div>
+        <div>
+
+            <span class="seconds" id="second"></span>
+            <div class="smalltext">Seconds</div>
+        </div>
+    </div>
+    <p id="demo"></p>
+
+
+    <!-- <label for="deadline">Enter Deadline (e.g., Oct 11, 2023 23:03:00): </label>
+    <input type="text" id="deadlineInput" placeholder="e.g., Oct 11, 2023 23:03:00">
+    <button onclick="startCountdown()">Start Countdown</button>
+
+    <div class="countdown">
+        <div class="time-section" id="hours">
+            <div class="time-group">
+                <div class="time-segment">
+                    <div class="segment-display">
+                        <div class="segment-display__top"></div>
+                        <div class="segment-display__bottom"></div>
+                        <div class="segment-overlay">
+                            <div class="segment-overlay__top"></div>
+                            <div class="segment-overlay__bottom"> </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="time-segment">
+                    <div class="segment-display">
+                        <div class="segment-display__top"></div>
+                        <div class="segment-display__bottom"></div>
+                        <div class="segment-overlay">
+                            <div class="segment-overlay__top"></div>
+                            <div class="segment-overlay__bottom"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p>Hours</p>
+        </div>
+
+        <div class="time-section" id="minutes">
+            <div class="time-group">
+                <div class="time-segment">
+                    <div class="segment-display">
+                        <div class="segment-display__top"></div>
+                        <div class="segment-display__bottom"></div>
+                        <div class="segment-overlay">
+                            <div class="segment-overlay__top"></div>
+                            <div class="segment-overlay__bottom"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="time-segment">
+                    <div class="segment-display">
+                        <div class="segment-display__top"></div>
+                        <div class="segment-display__bottom"></div>
+                        <div class="segment-overlay">
+                            <div class="segment-overlay__top"></div>
+                            <div class="segment-overlay__bottom"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p>Minutes</p>
+        </div>
+
+        <div class="time-section" id="seconds">
+            <div class="time-group">
+                <div class="time-segment">
+                    <div class="segment-display">
+                        <div class="segment-display__top"></div>
+                        <div class="segment-display__bottom"></div>
+                        <div class="segment-overlay">
+                            <div class="segment-overlay__top"></div>
+                            <div class="segment-overlay__bottom"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="time-segment">
+                    <div class="segment-display">
+                        <div class="segment-display__top"></div>
+                        <div class="segment-display__bottom"></div>
+                        <div class="segment-overlay">
+                            <div class="segment-overlay__top"></div>
+                            <div class="segment-overlay__bottom"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p>Seconds</p>
+        </div>
+    </div> -->
+
+    <!-- Adding JavaScript code -->
+    <!-- <script src="app.js"> -->
+    <script src="counter.js"></script>
+
+
+</body>
+
+</html>
