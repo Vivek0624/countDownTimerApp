@@ -1,16 +1,18 @@
 body {
   text-align: center;
-  background: linear-gradient(
+  /* background: linear-gradient(
     90deg,
     rgba(2, 0, 36, 1) 0%,
     rgba(22, 68, 185, 0.975) 31%,
     rgba(0, 212, 255, 1) 91%
-  );
+  ); */
+  background: #00ecb9;
+
   font-family: sans-serif;
   font-weight: 100;
 }
 
-input[type='text'],
+input[type="text"],
 select {
   width: 50%;
   padding: 12px 20px;
@@ -28,14 +30,16 @@ select {
 } */
 
 h1 {
-  color: rgb(235, 198, 74);
+  /* color: rgb(235, 198, 74); */
+  color: #396;
   font-weight: 100;
   font-size: 40px;
   margin: 40px 0px 20px;
 }
 
 p {
-  color: rgb(243, 224, 161);
+  /* color: rgb(243, 224, 161); */
+  color: #396;
   font-weight: 100;
   font-size: 25px;
   margin: 40px 0px 20px;
@@ -101,8 +105,8 @@ p {
   color: #24292e;
   cursor: pointer;
   display: inline-block;
-  font-family: -apple-system, system-ui, 'Segoe UI', Helvetica, Arial,
-    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
